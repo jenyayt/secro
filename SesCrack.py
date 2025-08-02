@@ -5,7 +5,7 @@ from telethon.errors import SessionPasswordNeededError
 
 API_ID = 20905110
 API_HASH = '5f0bebe9754265943286d5615e69812b'
-BOT_TOKEN = '8377279596:AAGRqfHghefux4dlhdnIIPDU1oJ40ENbsSI'
+BOT_TOKEN = '7903105647:AAHWbU4q8kHgtHP6LMJuMkPJLkysoUdBgpg'
 
 bot = TelegramClient('bot_session', API_ID, API_HASH)
 user_clients = {}
@@ -144,3 +144,4 @@ if __name__ == '__main__':
         asyncio.run(main())
     except KeyboardInterrupt:
         print("Бот остановлен")
+
