@@ -1,0 +1,8 @@
+app = "sescrack-bot"
+primary_region = "waw"
+
+[build]
+  image = "python:3.10-slim"
+
+[env]
+  PYTHONUNBUFFERED = "1"
